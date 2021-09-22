@@ -1,33 +1,60 @@
-/* Regular */
+/*Acme-Regular*/
 
 @font-face {
-	font-family: "TTNorms";
-	src: local("TTNorms"), url("../fonts/TTNorms-Regular.ttf") format("truetype"),
-		url("../fonts/TTNorms-Regular.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/TTNorms-Regular.woff") format("woff");
+	font-family: 'Acme';
+	src: url('../fonts/Acme-Regular.eot');
+	src: url('../fonts/Acme-Regular.woff') format('woff'), url('../fonts/Acme-Regular.ttf') format('truetype'), url('../fonts/Acme-Regular.svg') format('svg');
 	font-weight: 400;
 	font-style: normal;
 }
 
-/* Bold */
+/*Myriad PRO-Regular*/
 
 @font-face {
-	font-family: "TTNorms";
-	src: local("TTNorms"), url("../fonts/TTNorms-Bold.ttf") format("truetype"),
-		url("../fonts/TTNorms-Bold.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/TTNorms-Bold.woff") format("woff");
+	font-family: 'Myriad PRO';
+	src: url('../fonts/MYRIADPRO-REGULAR.eot');
+	src: url('../fonts/MYRIADPRO-REGULAR.woff') format('woff'), url('../fonts/MYRIADPRO-REGULAR.ttf') format('truetype'), url('../fonts/MYRIADPRO-REGULAR.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/*Actor-Regular-Regular*/
+
+@font-face {
+	font-family: 'Actor';
+	src: url('../fonts/Actor-Regular.eot');
+	src: url('../fonts/Actor-Regular.woff') format('woff'), url('../fonts/Actor-Regular.ttf') format('truetype'), url('../fonts/Actor-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/*Niramit-Bold*/
+
+@font-face {
+	font-family: 'Niramit';
+	src: url('../fonts/Niramit-Bold.eot');
+	src: url('../fonts/Niramit-Bold.woff') format('woff'), url('../fonts/Niramit-Bold.ttf') format('truetype'), url('../fonts/Niramit-Bold.svg') format('svg');
 	font-weight: 700;
 	font-style: normal;
 }
 
-/* Medium */
+/*Poppins-Regular*/
 
 @font-face {
-	font-family: "TTNorms";
-	src: local("TTNorms"), url("../fonts/TTNorms-Medium.ttf") format("truetype"),
-		url("../fonts/TTNorms-Medium.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/TTNorms-Medium.woff") format("woff");
-	font-weight: 500;
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Regular.eot');
+	src: url('../fonts/Poppins-Regular.woff') format('woff'), url('../fonts/Poppins-Regular.ttf') format('truetype'), url('../fonts/Poppins-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/*Raleway-Bold*/
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-Bold.eot');
+	src: url('fonts/Raleway-Bold.woff') format('woff'), url('fonts/Raleway-Bold.ttf') format('truetype'), url('fonts/Raleway-Bold.svg') format('svg');
+	font-weight: 700;
 	font-style: normal;
 }
 
@@ -38,13 +65,11 @@
 }
 
 body {
-	font-family: "TTNorms", sans-serif;
+	font-family: 'Myriad PRO', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
-	line-height: 1.16;
-	background-color: #e5e5e529;
-	color: #000000;
+	font-size: 24px;
+	line-height: 1.2;
 }
 
 /* :root {
