@@ -1,0 +1,39 @@
+.header-nav-bground {
+	background-image: url(../../images/home-h1-bground.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.header-nav-container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 165px;
+}
+
+.main-title {
+	font-family: Poppins;
+	font-size: 60px;
+	line-height: 1.5;
+	color: rgba(255, 255, 255, 0.99);
+	margin: 85px 0 131px;
+	text-align: center;
+}
+
+.nav-item {
+	font-family: Actor;
+	font-size: 18px;
+	line-height: 1.22;
+}
+
+.nav-item:last-child {
+	margin-left: 68px;
+}
+
+.header-search {
+	width: 574px;
+	height: 51px;
+	border-radius: 30px;
+	position: absolute;
+	top: -28px;
+	left: auto;
+}

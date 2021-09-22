@@ -69,7 +69,7 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
-	line-height: 1.2;
+	line-height: 1.2;  /*29px*/
 }
 
 /* :root {
@@ -136,6 +136,18 @@ a {
 
 .l-style-none {
 	list-style: none;
+}
+
+.margin0 {
+	margin: 0;
+}
+
+.padding0 {
+	padding: 0;
+}
+
+.white {
+	color: #FFFFFF;
 }
 
 
