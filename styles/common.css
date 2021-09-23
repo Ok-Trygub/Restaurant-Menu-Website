@@ -11,7 +11,7 @@
 /*Myriad PRO-Regular*/
 
 @font-face {
-	font-family: 'Myriad PRO';
+	font-family: 'Myriad Pro';
 	src: url('../fonts/MYRIADPRO-REGULAR.eot');
 	src: url('../fonts/MYRIADPRO-REGULAR.woff') format('woff'), url('../fonts/MYRIADPRO-REGULAR.ttf') format('truetype'), url('../fonts/MYRIADPRO-REGULAR.svg') format('svg');
 	font-weight: 400;
@@ -65,7 +65,7 @@
 }
 
 body {
-	font-family: 'Myriad PRO', sans-serif;
+	font-family: 'Myriad Pro', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -95,6 +95,10 @@ body {
 
 .align-center {
 	align-items: center;
+}
+
+.justify-end {
+	justify-content: flex-end;
 }
 
 .justify-center {

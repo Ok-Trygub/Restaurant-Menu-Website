@@ -11,16 +11,15 @@
 }
 
 .main-title {
-	font-family: Poppins;
+	font-family: "Poppins";
 	font-size: 60px;
 	line-height: 1.5;
-	color: rgba(255, 255, 255, 0.99);
 	margin: 85px 0 131px;
 	text-align: center;
 }
 
 .nav-item {
-	font-family: Actor;
+	font-family: "Actor";
 	font-size: 18px;
 	line-height: 1.22;
 }
@@ -33,7 +32,91 @@
 	width: 574px;
 	height: 51px;
 	border-radius: 30px;
+	font-size: 16px;
+	line-height: 1.18;
+	letter-spacing: 0.185em;
+	color: #b3b3b3;
+	padding-left: 68px;
 	position: absolute;
 	top: -28px;
 	left: auto;
+	background-image: url(../../images/search-icon.png);
+	background-repeat: no-repeat;
+	background-position: top 10px left 20px;
+	filter: drop-shadow(0px 3px 4px #bfbfbf);
+}
+
+.choice-wrapper {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 165px;
+}
+
+.choice-title {
+	font-size: 36px;
+	line-height: 1.19;
+	letter-spacing: 0.02em;
+	color: #484848;
+	margin: 54px 0 10px;
+}
+
+.choice-container {
+	grid-template-columns: repeat(2, 1fr);
+	gap: 46px 30px;
+}
+
+.mantau-bground {
+	background-image: url(../../images/mantau-pondok-img.png);
+}
+
+.choice-bground {
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.choice-description {
+	font-size: 18px;
+	letter-spacing: 0.02em;
+	color: #9c9c9c;
+	margin: 0 0 20px;
+}
+
+.choice-item-wrapper {
+	background-color: #ffffff;
+	padding-top: 8px;
+	margin: 156px 0 0;
+	font-family: "Actor";
+}
+
+.choice-item-name {
+	letter-spacing: 0.025em;
+	color: #484848;
+	margin: 0 0 8px 0;
+}
+
+.choice-item-text {
+	font-size: 18px;
+	letter-spacing: 0.09em;
+	color: #9c9c9c;
+	margin: 0;
+}
+
+.kepiting-bground {
+	background-image: url(../../images/kepiting-dandito-img.png);
+}
+
+.ayam-bground {
+	background-image: url(../../images/ayam-geprek-kilo-img.png);
+}
+
+.pisang-bground {
+	background-image: url(../../images/pIsang-goreng-madu-img.png);
+}
+
+.salome-bground {
+	background-image: url(../../images/salome-kartika-iru-imgl.png);
+}
+
+.coto-bground {
+	background-image: url(../../images/coto-makassar-img.png);
 }

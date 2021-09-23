@@ -8,6 +8,10 @@
 		font-size: 45px;
 		line-height: 1.5;
 	}
+
+	.choice-wrapper {
+		padding: 0 65px;
+	}
 }
 
 @media screen and (max-width: 918px) {
@@ -25,7 +29,27 @@
 		width: 374px;
 		height: 41px;
 		top: -21px;
+		font-size: 14px;
+		background-position: top 7px left 20px;
 	}
+
+	.choice-wrapper {
+		padding: 0 45px;
+	}
+
+	.choice-title {
+		font-size: 24px;
+	}
+
+	.choice-item-name {
+		font-size: 20px;
+	}
+
+	.choice-item-text {
+		font-size: 16px;
+	}
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -51,6 +75,11 @@
 	.nav-item:last-child {
 		margin-left: 24px;
 	}
+
+	.choice-container {
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
 }
 
 @media screen and (max-width: 620px) {
@@ -73,6 +102,14 @@
 		width: 274px;
 		height: 25px;
 		top: -14px;
+		font-size: 12px;
+		padding-left: 43px;
+		background-size: 13.2px 15px;
+		background-position: top 3px left 15px;
+	}
+
+	.choice-wrapper {
+		padding: 0 20px;
 	}
 }
 
