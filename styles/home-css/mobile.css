@@ -12,6 +12,23 @@
 	.choice-wrapper {
 		padding: 0 65px;
 	}
+
+	.new-taste-wrapper {
+		padding: 0 65px;
+	}
+
+	.new-taste-title {
+		margin-left: 0;
+	}
+
+	.district-wrapper {
+		padding: 0 65px;
+	}
+
+	.district-text {
+		font-size: 19px;
+		color: #484848;
+	}
 }
 
 @media screen and (max-width: 918px) {
@@ -37,7 +54,8 @@
 		padding: 0 45px;
 	}
 
-	.choice-title {
+	.section-title {
+		margin: 40px 0 10px;
 		font-size: 24px;
 	}
 
@@ -49,7 +67,26 @@
 		font-size: 16px;
 	}
 
+	.new-taste-wrapper {
+		padding: 0 45px;
+	}
 
+	.new-taste-container {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 46px 30px;
+	}
+
+	.district-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.district-wrapper {
+		padding: 0 45px;
+	}
+
+	.district-text {
+		font-size: 24px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -80,6 +117,26 @@
 		grid-template-columns: 1fr;
 		gap: 30px;
 	}
+
+	.new-taste-wrapper {
+		padding: 0 20px;
+	}
+
+	.district-wrapper {
+		padding: 0 65px;
+	}
+
+
+	.district-container {
+		grid-template-columns: 1fr;
+		padding-bottom: 42px;
+	}
+
+	.district-wrapper {
+		padding: 0 45px;
+	}
+
+
 }
 
 @media screen and (max-width: 620px) {
@@ -111,6 +168,11 @@
 	.choice-wrapper {
 		padding: 0 20px;
 	}
+
+	.new-taste-container {
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
 }
 
 @media screen and (max-width: 477px) {
@@ -118,5 +180,9 @@
 		margin: 15px 0 31px;
 		font-size: 18px;
 		line-height: 1.2;
+	}
+
+	.district-wrapper {
+		padding: 0 20px;
 	}
 }

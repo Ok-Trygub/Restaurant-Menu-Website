@@ -1,0 +1,10 @@
+.section-btn {
+	width: 202px;
+	height: 43px;
+	background-color: #d01010;
+	border-color: transparent;
+	border-radius: 7px;
+	letter-spacing: 0.02em;
+	filter: drop-shadow(0px 2px 4px #bfbfbf);
+	padding: 7px 9px 7px 42px;
+}
